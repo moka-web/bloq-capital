@@ -1,0 +1,19 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.footer .title_footer {
+  margin-top: 5%;
+}
+.footer .content_footer {
+  margin-top: 4%;
+}
+.footer .social_media li {
+  list-style: none;
+}
+.footer .social_media a {
+  color: black;
+}
+
+/*# sourceMappingURL=style.css.map */

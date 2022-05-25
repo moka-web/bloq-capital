@@ -10,6 +10,17 @@
 .logo {
   width: 160px; }
 
+.section_servicios {
+  text-align: center; }
+  .section_servicios h2 {
+    color: white; }
+  .section_servicios p {
+    color: white; }
+  .section_servicios .section_servicios_articles {
+    margin-left: 100px; }
+  .section_servicios .row {
+    justify-content: center; }
+
 .section_alianzas {
   height: 40%;
   background-color: #161734;

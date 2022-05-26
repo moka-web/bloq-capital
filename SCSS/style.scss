@@ -13,7 +13,38 @@
     width: 160px;
 }
 
+.botonera a:hover{
+    opacity: 0.8;
+}
 
+.section_presentacion{
+    margin-top: 10vh;
+    padding-left: 30px;
+}
+
+.destacado-azul{
+    color: #0000FE;
+}
+
+.btn-azul{
+    background-color: #0000FE;
+    color: #FFF;
+    font-weight: 700;
+    &:hover{
+        color: #FFF;
+        opacity: 0.9;
+    }
+}
+
+.section_experiencia{
+    background-color: #0000FE;
+
+}
+
+.experiencia_contenido{
+    width: 450px;
+    color: #FFF;
+}
 
 .section_servicios{
         text-align: center;

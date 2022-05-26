@@ -28,6 +28,11 @@
     color: #FFF;
     opacity: 0.9; }
 
+.inclinado {
+  background-color: #0000FE;
+  height: 10vh;
+  transform: rotate(-2.3deg) translateY(4.6vh); }
+
 .section_experiencia {
   background-color: #0000FE; }
 

@@ -53,7 +53,8 @@
   width: 25px; }
 
 .section_servicios {
-  text-align: center; }
+  text-align: center;
+  margin-top: 5%; }
   .section_servicios h2 {
     color: white; }
   .section_servicios p {

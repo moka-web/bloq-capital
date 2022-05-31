@@ -52,15 +52,22 @@
 .marker {
   width: 25px; }
 
+.margins {
+  margin-top: 5%;
+  margin-bottom: 5%; }
+
 .section_servicios {
   text-align: center;
   margin-top: 5%; }
+  .section_servicios img {
+    width: 20%px;
+    height: 20%px; }
   .section_servicios h2 {
+    color: white; }
+  .section_servicios h3 {
     color: white; }
   .section_servicios p {
     color: white; }
-  .section_servicios .section_servicios_articles {
-    margin-left: 100px; }
   .section_servicios .row {
     justify-content: center; }
 
@@ -84,6 +91,12 @@
     background-color: gray;
     border-radius: 10%; }
 
+.footer h2 {
+  color: white; }
+
+.footer h3 {
+  color: white; }
+
 .footer .logo_footer {
   width: 160px; }
 
@@ -98,3 +111,7 @@
 
 .footer .social_media a {
   color: white; }
+
+.footer .img-contacto {
+  margin-top: 10%;
+  height: 150px; }

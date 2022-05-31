@@ -66,20 +66,29 @@
     width: 25px;
 }
 
+.margins{ margin-top: 5%;
+    margin-bottom: 5%;}
+
 .section_servicios{
         text-align: center;
        margin-top: 5%;
+
+    img{
+        width: 20%px;
+        height: 20%px;
+    }
   h2{
        color: white;
    }
+
+   h3{color: white;}
 
    p{
        color: white;
    }
 
-   .section_servicios_articles{
-      margin-left: 100px;
-   }
+   
+
 
    .row{
        justify-content: center;
@@ -118,6 +127,12 @@
 }
 
 .footer{
+    h2{
+        color: white;
+    }
+    h3{
+        color: white;
+    }
     .logo_footer{
         width: 160px;
         
@@ -137,4 +152,11 @@
             color: white;
         }
     }
+    .img-contacto{
+        margin-top: 10%;
+       
+        height: 150px;
+    }
+    
 }
+

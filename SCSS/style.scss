@@ -4,6 +4,7 @@
 }
 
 .cuerpo{
+  
     background-color: black;
     min-height: 100vh;
     font-family: 'Montserrat', sans-serif;
@@ -120,6 +121,7 @@
             width: 25%;
             background-color: gray;
             border-radius: 10%;
+            object-fit: scale-down;
         }
 
     }
@@ -154,8 +156,8 @@
     }
     .img-contacto{
         margin-top: 10%;
-       
         height: 150px;
+        object-fit: scale-down;
     }
     
 }

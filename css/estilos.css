@@ -89,7 +89,8 @@
     height: 150px;
     width: 25%;
     background-color: gray;
-    border-radius: 10%; }
+    border-radius: 10%;
+    object-fit: scale-down; }
 
 .footer h2 {
   color: white; }
@@ -114,4 +115,5 @@
 
 .footer .img-contacto {
   margin-top: 10%;
-  height: 150px; }
+  height: 150px;
+  object-fit: scale-down; }

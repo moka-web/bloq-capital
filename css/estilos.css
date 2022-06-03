@@ -33,19 +33,14 @@
   clip-path: polygon(0% 13%, 100% 0%, 100% 100%, 0% 100%); }
 
 .section_experiencia {
-  background-color: #0000FE;
-  z-index: 10; }
+  background-color: #0000FE; }
 
 .experiencia_contenido {
   width: 450px;
-  color: #FFF;
-  z-index: 20; }
-  .experiencia_contenido li {
-    font-weight: 700;
-    padding-top: 2rem; }
+  color: #FFF; }
 
 .logo_experiencia {
-  width: 50%; }
+  width: 9rem; }
 
 .marker {
   width: 25px; }

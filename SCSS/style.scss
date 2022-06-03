@@ -38,10 +38,13 @@
 }
 
 .inclinado{
-    background-color: #0000FE;
-    height: 20vh;
-    transform: rotate(-2.3deg) translateY(15vh) translateX(-1px);
-    z-index: 1;
+    padding-top: 5rem;
+    clip-path: polygon(
+        0% 13%,
+        100% 0%,
+        100% 100%,
+        0% 100%   
+    )
 }
 
 .section_experiencia{

@@ -5,7 +5,8 @@
 body {
   background-color: black;
   min-height: 100vh;
-  font-family: 'Montserrat', sans-serif; }
+  font-family: 'Montserrat', sans-serif;
+  overflow-x: hidden; }
 
 .cuerpo {
   background-image: url(../img/bg_img.jpg);

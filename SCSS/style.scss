@@ -1,13 +1,23 @@
+//Colores
+$azul-claro: #0000FE;
+$azul-oscuro: #161734;
+$naranja: #FF5501;
+
 *{
     margin: 0;
     padding: 0;
 }
 
 .cuerpo{
-  
     background-color: black;
     min-height: 100vh;
     font-family: 'Montserrat', sans-serif;
+}
+
+.cabecera{
+    background-image: url(../img/bg_img.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 .logo{
@@ -19,16 +29,16 @@
 }
 
 .section_presentacion{
-    margin-top: 10vh;
-    padding-left: 30px;
+    background-color: rgba(0, 0, 0, 0.589);
+    border-radius: 0 0 25px 0;
 }
 
 .destacado-azul{
-    color: #0000FE;
+    color: $azul-claro;
 }
 
 .btn-azul{
-    background-color: #0000FE;
+    background-color: $azul-claro;
     color: #FFF;
     font-weight: 700;
     &:hover{
@@ -44,11 +54,12 @@
         100% 0%,
         100% 100%,
         0% 100%   
-    )
+    );
+    transform:translateY(-13%)
 }
 
 .section_experiencia{
-    background-color: #0000FE;
+    background-color: $azul-claro;
 }
 
 .experiencia_contenido{
@@ -57,7 +68,7 @@
 }
 
 .logo_experiencia{
-    width: 8.5rem;
+    width: 11.3rem;
 }
 
 .marker{
@@ -96,7 +107,7 @@
 .section_alianzas{
     
     height: 40%;
-    background-color: #161734;
+    background-color: $azul-oscuro;
     display: flex;
     flex-direction: row;
 

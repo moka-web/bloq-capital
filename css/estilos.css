@@ -7,6 +7,11 @@
   min-height: 100vh;
   font-family: 'Montserrat', sans-serif; }
 
+.cabecera {
+  background-image: url(../img/bg_img.jpg);
+  background-repeat: no-repeat;
+  background-position: center; }
+
 .logo {
   width: 160px; }
 
@@ -14,8 +19,8 @@
   opacity: 0.8; }
 
 .section_presentacion {
-  margin-top: 10vh;
-  padding-left: 30px; }
+  background-color: rgba(0, 0, 0, 0.589);
+  border-radius: 0 0 25px 0; }
 
 .destacado-azul {
   color: #0000FE; }
@@ -30,7 +35,8 @@
 
 .inclinado {
   padding-top: 5rem;
-  clip-path: polygon(0% 13%, 100% 0%, 100% 100%, 0% 100%); }
+  clip-path: polygon(0% 13%, 100% 0%, 100% 100%, 0% 100%);
+  transform: translateY(-13%); }
 
 .section_experiencia {
   background-color: #0000FE; }
@@ -40,7 +46,7 @@
   color: #FFF; }
 
 .logo_experiencia {
-  width: 8.5rem; }
+  width: 11.3rem; }
 
 .marker {
   width: 25px; }

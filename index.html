@@ -28,32 +28,32 @@
 </head>
 
 <body>
-    <div class="cuerpo">
-        <header class="container-xl cabecera">
-            <nav class="navbar navbar-expand-lg navbar-dark bg-transparent d-flex justify-content-between">
+    <div class="cuerpo container-xl px-0">
+        <nav id="menu"
+            class="navbar navbar-expand-md sticky-top navbar-dark pl-5 bg-transparent d-flex justify-content-between">
 
-                <button class="navbar-toggler align-self-center" type="button" data-toggle="collapse"
-                    data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
-                    aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
+            <button class="navbar-toggler align-self-center" type="button" data-toggle="collapse"
+                data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
 
-                <a class="navbar-brand" href="#">
-                    <img class="logo" src="img/logo.png" alt="Bloq Capital">
-                </a>
+            <a class="navbar-brand" href="/">
+                <img class="logo" src="img/logo.png" alt="Bloq Capital">
+            </a>
 
-                <div class="d-flex flex-column">
-                    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                        <div class="navbar-nav botonera">
-                            <a class="nav-link ml-lg-5 pl-lg-5 text-white font-weight-bold" href="#">Nosotros</a>
-                            <a class="nav-link ml-lg-5 pl-lg-5 text-white font-weight-bold" href="#">Servicios</a>
-                            <a class="nav-link ml-lg-5 pl-lg-5 text-white font-weight-bold" href="#">Hablemos</a>
-                        </div>
+            <div class="d-flex flex-column">
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav botonera">
+                        <a class="nav-link ml-lg-5 pl-md-5 text-white font-weight-bold" href="#nosotros">Nosotros</a>
+                        <a class="nav-link ml-lg-5 pl-md-5 text-white font-weight-bold" href="#servicios">Servicios</a>
+                        <a class="nav-link ml-lg-5 pl-md-5 text-white font-weight-bold" href="#hablemos">Hablemos</a>
                     </div>
                 </div>
-            </nav>
-            <section class="container pb-5">
-                <div class="section_presentacion col-md-8 col-lg-6 my-2 p-3">
+            </div>
+        </nav>
+        <section class="container-xl py-3 pl-0">
+            <div class="section_presentacion col-md-8 col-lg-6 my-2 p-3 pl-5">
                 <h1 class="text-white font-weight-light">
                     Tus aliados en <br />
                     <span class="font-weight-bold destacado-azul">materia financiera</span>
@@ -64,10 +64,9 @@
                     <span class="font-weight-bold">mercado de capitales</span>
                 </p>
                 <button class="btn btn-azul col-8 col-sm-6 mb-sm-0">¡conocenos!</button>
-                </div>
-            </section>
-        </header>
-        <section class="section_experiencia container-xl pb-3 inclinado text-white">
+            </div>
+        </section>
+        <section id="nosotros" class="section_experiencia container-xl px-0 pb-3 inclinado text-white">
             <div class="container">
                 <div class="row justify-content-between">
                     <div class="col-12 col-lg-4 d-flex align-items-center justify-content-center">
@@ -100,7 +99,7 @@
                 </div>
             </div>
         </section>
-        <section class="section_servicios container">
+        <section id="servicios" class="section_servicios container">
             <div>
                 <h2 class="font-weight-bold">Inverti seguro</h2>
                 <p>te ayudamos a invertir y alcanzar tus objetivos de inversion</p>
@@ -190,7 +189,7 @@
                 </div>
             </div>
         </section>
-        <footer class="container footer ">
+        <footer id="hablemos" class="container footer ">
             <div class="title_footer row">
                 <div class="col-md-4"><a href=""><img class="logo_footer" src="./img/logo.png" alt=""></a></div>
                 <h2 class="col-md-4 font-weight-bold">Contactanos! </h2>

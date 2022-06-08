@@ -1,5 +1,20 @@
 const $form = document.querySelector('#form')
 const article = document.querySelector('.article')
+const menu = document.getElementById('menu')
+
+window.onscroll = function() {navBgT()};
+
+
+
+const navBgT = ()=>{
+    if(document.documentElement.scrollTop < 56) {
+        menu.classList.remove('bg-black')
+        menu.classList.add('bg-transparent');
+    } else {
+        menu.classList.remove('bg-transparent')
+        menu.classList.add('bg-black');
+}
+}
 
 
 $form.addEventListener('submit', handleSubmit)

@@ -2,21 +2,26 @@
   margin: 0;
   padding: 0; }
 
-.cuerpo {
+body {
   background-color: black;
   min-height: 100vh;
   font-family: 'Montserrat', sans-serif; }
 
-.cabecera {
+.cuerpo {
   background-image: url(../img/bg_img.jpg);
   background-repeat: no-repeat;
-  background-position: center; }
+  background-position: center;
+  background-position-y: top; }
 
 .logo {
   width: 160px; }
 
 .botonera a:hover {
   opacity: 0.8; }
+
+.bg-black {
+  background-color: #000000;
+  transition: all 600ms ease; }
 
 .section_presentacion {
   background-color: rgba(0, 0, 0, 0.589);
@@ -35,8 +40,7 @@
 
 .inclinado {
   padding-top: 5rem;
-  clip-path: polygon(0% 13%, 100% 0%, 100% 100%, 0% 100%);
-  transform: translateY(-13%); }
+  clip-path: polygon(0% 13%, 100% 0%, 100% 100%, 0% 100%); }
 
 .section_experiencia {
   background-color: #0000FE; }

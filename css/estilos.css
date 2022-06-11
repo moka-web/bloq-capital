@@ -153,4 +153,6 @@ body {
   .footer .social_media a {
     color: white; }
   .footer .img-contacto {
-    display: none; } }
+    display: none; }
+  .form {
+    width: 80% !important; } }

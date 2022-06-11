@@ -1,13 +1,18 @@
+html {
+  width: auto; }
+
 body {
   background-color: black;
-  min-height: 100vh;
-  font-family: 'Montserrat', sans-serif;
-  overflow-x: hidden; }
+  width: 100%;
+  font-family: 'Montserrat', sans-serif; }
 
 .cuerpo {
   background-image: url(../img/bg_img.jpg);
   background-repeat: no-repeat;
-  background-size: cover; }
+  background-size: cover;
+  width: 100%;
+  padding: 0 !important;
+  margin: 0 !important; }
 
 .logo {
   width: 25%; }
@@ -97,7 +102,7 @@ body {
   color: white; }
 
 .footer .logo_footer {
-  width: 160px; }
+  width: 6rem; }
 
 .footer .title_footer {
   margin-top: 5%; }
@@ -133,13 +138,48 @@ body {
       border-radius: 10%;
       object-fit: scale-down; }
     .section_alianzas .section_presentacion {
-      display: none; }
+      width: 80%; }
   .footer h2 {
     color: white; }
   .footer h3 {
     color: white; }
   .footer .logo_footer {
-    width: 160px; }
+    width: 6rem; }
+  .footer .title_footer {
+    margin-top: 5%; }
+  .footer .content_footer {
+    margin-top: 4%; }
+  .footer .social_media li {
+    list-style: none; }
+  .footer .social_media a {
+    color: white; }
+  .footer .img-contacto {
+    display: none; }
+  .form {
+    width: 80% !important; } }
+
+@media (max-width: 741px) {
+  .section_alianzas {
+    height: 40%;
+    background-color: #161734;
+    display: flex;
+    flex-direction: row; }
+    .section_alianzas p {
+      display: none; }
+    .section_alianzas .section_alianzas_articles article {
+      margin-top: 9%;
+      margin-bottom: 9%;
+      height: 6rem;
+      width: 6rem;
+      background-color: gray;
+      border-radius: 10%;
+      object-fit: scale-down; }
+  .footer h2 {
+    color: white; }
+  .footer h3 {
+    color: white; }
+  .footer .logo_footer {
+    width: 6rem; }
   .footer .title_footer {
     margin-top: 5%; }
   .footer .content_footer {

@@ -4,22 +4,25 @@ $azul-oscuro: #161734;
 $naranja: #FF5501;
 
 
-
+html{
+    width: auto;
+}
 
 
 body{
     background-color: black;
-    min-height: 100vh;
+    width: 100%;
     font-family: 'Montserrat', sans-serif;
-    overflow-x: hidden;
+    
 }
 
 .cuerpo {
     background-image: url(../img/bg_img.jpg) ;
     background-repeat: no-repeat;
     background-size: cover;
-   
-    
+    width: 100%;
+    padding: 0 !important;
+    margin: 0 !important;
     
 }
 
@@ -85,8 +88,8 @@ body{
     margin-bottom: 5%;}
 
 .section_servicios{
-        text-align: center;
-       margin-top: 5%;
+    text-align: center;
+     margin-top: 5%;
 
     img{
         width: 9.5rem;
@@ -151,7 +154,7 @@ body{
         color: white;
     }
     .logo_footer{
-        width: 160px;
+        width: 6rem;
         
     }
     .title_footer{
@@ -207,7 +210,7 @@ body{
         }
 
         .section_presentacion{
-            display: none;
+           width: 80%;
             
         }
     
@@ -222,7 +225,7 @@ body{
             color: white;
         }
         .logo_footer{
-            width: 160px;
+            width: 6rem;
             
         }
         .title_footer{
@@ -249,5 +252,77 @@ body{
     .form{
         width: 80% !important;
     }
+
+}
+
+@media(max-width: 741px){
+
+    .section_alianzas{
+    
+        height: 40%;
+        background-color: $azul-oscuro;
+        display: flex;
+        flex-direction: row;
+    
+        p{
+            display: none;
+        }
+    
+        .section_alianzas_articles{
+           
+            article{
+                margin-top: 9%;
+                
+                margin-bottom: 9%;
+                height: 6rem;
+                width: 6rem;
+                background-color: gray;
+                border-radius: 10%;
+                object-fit: scale-down;
+            }
+    
+        }
+
+        
+    
+    }
+
+
+    .footer{
+        h2{
+            color: white;
+        }
+        h3{
+            color: white;
+        }
+        .logo_footer{
+            width: 6rem;
+            
+        }
+        .title_footer{
+            margin-top: 5%;
+        }
+        .content_footer{
+            margin-top: 4%;
+        }
+        .social_media{
+            
+            li{
+                list-style: none;
+            }
+            a{
+                color: white;
+            }
+        }
+        .img-contacto{
+           display: none;
+        }
+        
+    }
+
+    .form{
+        width: 80% !important;
+    }
+
 
 }

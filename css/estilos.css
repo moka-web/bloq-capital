@@ -11,11 +11,10 @@ body {
 .cuerpo {
   background-image: url(../img/bg_img.jpg);
   background-repeat: no-repeat;
-  background-position: center;
-  background-position-y: top; }
+  background-size: cover; }
 
 .logo {
-  width: 160px; }
+  width: 25%; }
 
 .botonera a:hover {
   opacity: 0.8; }
@@ -47,7 +46,6 @@ body {
   background-color: #0000FE; }
 
 .experiencia_contenido {
-  width: 450px;
   color: #FFF; }
 
 .logo_experiencia {
@@ -64,8 +62,8 @@ body {
   text-align: center;
   margin-top: 5%; }
   .section_servicios img {
-    width: 20%px;
-    height: 20%px; }
+    width: 9.5rem;
+    height: 9rem; }
   .section_servicios h2 {
     color: white; }
   .section_servicios h3 {
@@ -83,15 +81,15 @@ body {
   .section_alianzas p {
     font-family: 'Montserrat', sans-serif;
     color: white;
-    font-size: 40px;
+    font-size: 2rem;
     margin-top: 9%;
     margin-bottom: 9%; }
   .section_alianzas .section_alianzas_articles article {
     margin-top: 9%;
     margin-left: 8%;
     margin-bottom: 9%;
-    height: 150px;
-    width: 25%;
+    height: 8rem;
+    width: 6rem;
     background-color: gray;
     border-radius: 10%;
     object-fit: scale-down; }
@@ -121,3 +119,38 @@ body {
   margin-top: 10%;
   height: 150px;
   object-fit: scale-down; }
+
+@media (max-width: 768px) {
+  .section_alianzas {
+    height: 40%;
+    background-color: #161734;
+    display: flex;
+    flex-direction: row; }
+    .section_alianzas p {
+      display: none; }
+    .section_alianzas .section_alianzas_articles article {
+      margin-top: 9%;
+      margin-bottom: 9%;
+      height: 6rem;
+      width: 6rem;
+      background-color: gray;
+      border-radius: 10%;
+      object-fit: scale-down; }
+    .section_alianzas .section_presentacion {
+      display: none; }
+  .footer h2 {
+    color: white; }
+  .footer h3 {
+    color: white; }
+  .footer .logo_footer {
+    width: 160px; }
+  .footer .title_footer {
+    margin-top: 5%; }
+  .footer .content_footer {
+    margin-top: 4%; }
+  .footer .social_media li {
+    list-style: none; }
+  .footer .social_media a {
+    color: white; }
+  .footer .img-contacto {
+    display: none; } }

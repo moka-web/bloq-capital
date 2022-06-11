@@ -3,6 +3,9 @@ $azul-claro: #0000FE;
 $azul-oscuro: #161734;
 $naranja: #FF5501;
 
+
+
+
 *{
     margin: 0;
     padding: 0;
@@ -16,14 +19,16 @@ body{
 }
 
 .cuerpo {
-    background-image: url(../img/bg_img.jpg);
+    background-image: url(../img/bg_img.jpg) ;
     background-repeat: no-repeat;
-    background-position: center;
-    background-position-y: top;
+    background-size: cover;
+   
+    
+    
 }
 
 .logo{
-    width: 160px;
+    width: 25%;
 }
 
 .botonera a:hover{
@@ -68,7 +73,7 @@ body{
 }
 
 .experiencia_contenido{
-    width: 450px;
+   
     color: #FFF;
 }
 
@@ -88,8 +93,8 @@ body{
        margin-top: 5%;
 
     img{
-        width: 20%px;
-        height: 20%px;
+        width: 9.5rem;
+        height: 9rem;
     }
   h2{
        color: white;
@@ -119,19 +124,20 @@ body{
     p{
         font-family: 'Montserrat', sans-serif ;
         color: white;
-        font-size: 40px;
+        font-size: 2rem;
         margin-top: 9%;
         margin-bottom: 9%;
     }
 
     .section_alianzas_articles{
 
+
         article{
             margin-top: 9%;
             margin-left: 8%;
             margin-bottom: 9%;
-            height: 150px;
-            width: 25%;
+            height: 8rem;
+            width: 6rem;
             background-color: gray;
             border-radius: 10%;
             object-fit: scale-down;
@@ -175,3 +181,75 @@ body{
     
 }
 
+@media(max-width: 768px){
+
+
+    .section_alianzas{
+    
+        height: 40%;
+        background-color: $azul-oscuro;
+        display: flex;
+        flex-direction: row;
+    
+        p{
+            display: none;
+        }
+    
+        .section_alianzas_articles{
+           
+            article{
+                margin-top: 9%;
+                
+                margin-bottom: 9%;
+                height: 6rem;
+                width: 6rem;
+                background-color: gray;
+                border-radius: 10%;
+                object-fit: scale-down;
+            }
+    
+        }
+
+        .section_presentacion{
+            display: none;
+            
+        }
+    
+    }
+
+
+    .footer{
+        h2{
+            color: white;
+        }
+        h3{
+            color: white;
+        }
+        .logo_footer{
+            width: 160px;
+            
+        }
+        .title_footer{
+            margin-top: 5%;
+        }
+        .content_footer{
+            margin-top: 4%;
+        }
+        .social_media{
+            
+            li{
+                list-style: none;
+            }
+            a{
+                color: white;
+            }
+        }
+        .img-contacto{
+           display: none;
+        }
+        
+    }
+
+
+
+}

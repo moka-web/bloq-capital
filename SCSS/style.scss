@@ -16,15 +16,15 @@ body{
     
 }
 
+
 .cuerpo {
     background-image: url(../img/bg_img.jpg) ;
     background-repeat: no-repeat;
-    background-size: cover;
-    width: 100%;
-    padding: 0 !important;
-    margin: 0 !important;
-    
+    background-position: top;
+    background-size: 100% 15% ;
+
 }
+
 
 .logo{
     width: 25%;
@@ -116,9 +116,13 @@ body{
 .section_alianzas{
     
     height: 40%;
-    background-color: $azul-oscuro;
+    background-color: $azul-claro;
     display: flex;
     flex-direction: row;
+
+    .carousel{
+        display: none;
+    }
 
     p{
         font-family: 'Montserrat', sans-serif ;
@@ -137,7 +141,7 @@ body{
             margin-bottom: 9%;
             height: 8rem;
             width: 6rem;
-            background-color: gray;
+            background-color: white;
             border-radius: 10%;
             object-fit: scale-down;
         }
@@ -147,6 +151,16 @@ body{
 }
 
 .footer{
+    p{
+        color: white;
+        text-align: center;
+        margin-top: 2%;
+    }
+    .hr{
+        width: 100%;
+        border: solid 1px #0000FE;
+       
+    }
     h2{
         color: white;
     }
@@ -165,11 +179,20 @@ body{
     }
     .social_media{
         
+        ul{
+            margin-left: -10%;
+        }
+
         li{
             list-style: none;
+            margin: 2%;
         }
         a{
             color: white;
+        }
+
+       a img{
+            width: 2rem;
         }
     }
     .img-contacto{
@@ -189,26 +212,23 @@ body{
         background-color: $azul-oscuro;
         display: flex;
         flex-direction: row;
-    
-        p{
-            display: none;
-        }
-    
-        .section_alianzas_articles{
-           
-            article{
-                margin-top: 9%;
-                
-                margin-bottom: 9%;
-                height: 6rem;
-                width: 6rem;
-                background-color: gray;
-                border-radius: 10%;
-                object-fit: scale-down;
-            }
-    
+        justify-content: center;
+        .carousel{
+            display: block;
+            height: 10rem;
+            width: 50%;
+            
         }
 
+        .carousel_div{
+            background-color: transparent;
+            height: 8rem;
+            margin-top: 5%;
+           
+        }
+        .container{
+            display: none;
+        }
         .section_presentacion{
            width: 80%;
             

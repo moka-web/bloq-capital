@@ -54,17 +54,6 @@ async function handleSubmit(event) {
 };
 
 
-const animacion = ()=>{
-    const animation = article.animate([
-        {transform:"translateY(-100px)"},
-        {transform:"translateY(0px)"}
-    ],{
-        easing:"linear",
-        iterations: 1,
-        duration: 1000
 
-    });
-    return animation.finished
-}
 
 

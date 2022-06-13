@@ -62,6 +62,7 @@ body {
   margin-top: 5%; }
   .section_servicios img {
     width: 9.5rem;
+    object-fit: contain;
     height: 9rem; }
   .section_servicios h2 {
     color: white; }

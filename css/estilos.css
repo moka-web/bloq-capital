@@ -3,17 +3,18 @@ html {
 
 body {
   background-color: black;
+  min-height: 100vh;
   width: 100%;
   font-family: 'Montserrat', sans-serif; }
 
 .cuerpo {
   background-image: url(../img/bg_img.jpg);
   background-repeat: no-repeat;
-  background-position: top;
-  background-size: 100% 15%; }
+  background-position: center;
+  background-position-y: top; }
 
 .logo {
-  width: 25%; }
+  width: 10rem; }
 
 .botonera a:hover {
   opacity: 0.8; }
@@ -59,7 +60,8 @@ body {
 
 .section_servicios {
   text-align: center;
-  margin-top: 5%; }
+  margin-top: 5%;
+  background-color: #000000; }
   .section_servicios img {
     width: 9.5rem;
     object-fit: contain;
@@ -210,3 +212,7 @@ body {
     display: none; }
   .form {
     width: 80% !important; } }
+
+@media (max-width: 576px) {
+  .cuerpo {
+    background-image: none; } }

@@ -134,6 +134,8 @@ body {
 
 .footer .social_media a img {
   width: 2rem; }
+  .footer .social_media a img:hover {
+    opacity: 0.5; }
 
 .footer .img-contacto {
   margin-top: 10%;

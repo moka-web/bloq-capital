@@ -1,7 +1,0 @@
-azul claro → #0000FE 
-azul oscuro → #161734
-naranja → #FF5501
-negro → #000000
-blanco → #FFFFFF
-
-Tipografía → Montserrat (regular / semibold / light / bold / bok)

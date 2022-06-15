@@ -3,11 +3,9 @@ $azul-claro: #0000FE;
 $azul-oscuro: #161734;
 $naranja: #FF5501;
 
-
 html{
     width: auto;
 }
-
 
 body{
     background-color: black;
@@ -17,14 +15,12 @@ body{
     
 }
 
-
 .cuerpo {
     background-image: url(../img/bg_img.jpg) ;
     background-repeat: no-repeat;
     background-position: center;
     background-position-y: top;
 }
-
 
 .logo{
     width: 10rem;
@@ -194,6 +190,9 @@ body{
 
        a img{
             width: 2rem;
+            &:hover {
+                opacity: 0.5;
+            }
         }
     }
     .img-contacto{
